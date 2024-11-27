@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Management</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      background-color: #4CAF50;
+      width: 250px;
+      height: 100vh;
+      padding: 20px 10px;
+      color: white;
+    }
+
+    .sidebar h1 {
+      font-size: 24px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .sidebar ul li {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .sidebar ul li i {
+      font-size: 20px;
+      margin-right: 10px;
+    }
+
+    .sidebar ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    /* Main Content */
+    .main-content {
+      flex: 1;
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+
+    .search-bar {
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+    .search-bar input {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px 0 0 5px;
+      outline: none;
+    }
+
+    .search-bar button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 0 5px 5px 0;
+      cursor: pointer;
+    }
+
+    /* User Cards */
+    .user-card {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .user-card div {
+      flex: 1;
+    }
+
+    .user-card button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .user-card button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <!-- Sidebar Section -->
+  <div class="sidebar">
+    <h1>HEALTH</h1>
+    <ul>
+      <li><i>👤</i><a href="index.html">Home</a></li> <!-- Home button linked to index.html -->
+      <li><i>📄</i><a href="#">Artikel</a></li>
+    </ul>
+  </div>
+
+  <!-- Main Content Section -->
+  <div class="main-content">
+    <div class="search-bar">
+      <input type="text" placeholder="Cari User">
+      <button>🔍</button>
+    </div>
+
+    <!-- User Card -->
+    <div class="user-card">
+      <div>
+        <p>Nama: Steven Wijaya</p>
+        <p>Username: Tipen</p>
+        <p>Email: stevenwijaya801@gmail.com</p>
+      </div>
+      <button>Delete User</button>
+    </div>
+
+    <div class="user-card">
+      <div>
+        <p>Nama: Steven Wijaya</p>
+        <p>Username: Tipen</p>
+        <p>Email: stevenwijaya801@gmail.com</p>
+      </div>
+      <button>Delete User</button>
+    </div>
+
+    <div class="user-card">
+      <div>
+        <p>Nama: Steven Wijaya</p>
+        <p>Username: Tipen</p>
+        <p>Email: stevenwijaya801@gmail.com</p>
+      </div>
+      <button>Delete User</button>
+    </div>
+
+    <div class="user-card">
+      <div>
+        <p>Nama: Steven Wijaya</p>
+        <p>Username: Tipen</p>
+        <p>Email: stevenwijaya801@gmail.com</p>
+      </div>
+      <button>Delete User</button>
+    </div>
+  </div>
+</body>
+</html>
